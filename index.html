@@ -5,32 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Relação entre Campo e Cidade</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Relação entre Campo e Cidade</h1>
-        <nav>
-            <ul>
-                <li><a href="#campo">Vida no Campo</a></li>
-                <li><a href="#cidade">Vida na Cidade</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Relação entre Campo e Cidade</h1>
+            <nav>
+                <ul>
+                    <li><a href="#campo">Vida no Campo</a></li>
+                    <li><a href="#cidade">Vida na Cidade</a></li>
+                    <li><a href="#comparacao">Comparação</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <section id="campo">
-        <h2>Vida no Campo</h2>
-        <p>O campo é o lugar onde as pessoas se conectam diretamente com a natureza. A vida rural é caracterizada pela tranquilidade, proximidade com a terra e uma forte ligação com o ciclo das estações. As pessoas que vivem no campo muitas vezes trabalham na agricultura e na pecuária, e têm um estilo de vida mais simples e sossegado.</p>
-        <img src="https://viajante.com.br/wp-content/uploads/2022/05/campo.jpg" alt="Vida no campo">
+        <div class="container">
+            <h2>Vida no Campo</h2>
+            <p>O campo é um ambiente marcado pela tranquilidade e pela natureza. As pessoas que vivem no campo geralmente têm uma relação mais próxima com a terra e os animais, e as atividades econômicas, como a agricultura e a pecuária, são predominantes.</p>
+            <img src="assets/campo.jpeg" alt="Vida no Campo">
+            <p>Além disso, a vida no campo é caracterizada pela menor densidade populacional, menos poluição e um ritmo de vida mais lento. Embora o acesso a alguns serviços seja limitado, as pessoas no campo tendem a valorizar a comunidade e as relações interpessoais.</p>
+        </div>
     </section>
 
     <section id="cidade">
-        <h2>Vida na Cidade</h2>
-        <p>A cidade é o centro de atividades econômicas, culturais e sociais. As pessoas que vivem na cidade têm acesso a uma grande variedade de serviços, educação e entretenimento. Porém, a vida urbana também pode ser marcada pela agitação, poluição e maior distanciamento da natureza.</p>
-        <img src="https://www.dinamicainstitucional.com.br/wp-content/uploads/2019/11/cidade.jpg" alt="Vida na cidade">
+        <div class="container">
+            <h2>Vida na Cidade</h2>
+            <p>A cidade é o centro da modernidade, onde a tecnologia, cultura e atividades econômicas se encontram. A vida urbana é marcada pela agitação, grandes avenidas e uma infraestrutura mais desenvolvida. As cidades oferecem uma variedade de serviços, como escolas, hospitais, transporte público e opções de entretenimento.</p>
+            <img src="assets/cidade.jpg" alt="Vida na Cidade">
+            <p>Porém, a vida nas grandes cidades pode ser estressante, com alta poluição, aglomeração e distanciamento da natureza. O ritmo acelerado e a busca constante por produtividade também geram uma dinâmica diferente em relação ao campo.</p>
+        </div>
+    </section>
+
+    <section id="comparacao">
+        <div class="container">
+            <h2>Comparação entre Campo e Cidade</h2>
+            <p>Vamos analisar as principais diferenças entre a vida no campo e na cidade. Abaixo, você encontra um gráfico que ilustra alguns aspectos fundamentais das duas realidades.</p>
+            
+            <div class="chart">
+                <div class="chart-item">
+                    <div class="chart-label">Qualidade de Vida</div>
+                    <div class="bar" style="width: 80%; background-color: #4CAF50;">Campo</div>
+                    <div class="bar" style="width: 40%; background-color: #2196F3;">Cidade</div>
+                </div>
+                <div class="chart-item">
+                    <div class="chart-label">Acesso a Serviços</div>
+                    <div class="bar" style="width: 40%; background-color: #4CAF50;">Campo</div>
+                    <div class="bar" style="width: 90%; background-color: #2196F3;">Cidade</div>
+                </div>
+                <div class="chart-item">
+                    <div class="chart-label">Relação com a Natureza</div>
+                    <div class="bar" style="width: 90%; background-color: #4CAF50;">Campo</div>
+                    <div class="bar" style="width: 30%; background-color: #2196F3;">Cidade</div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2025 Relação entre Campo e Cidade</p>
+        <div class="container">
+            <p>&copy; 2025 Relação entre Campo e Cidade | Todos os direitos reservados</p>
+        </div>
     </footer>
 </body>
 </html>
